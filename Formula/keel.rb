@@ -1,21 +1,21 @@
 class Keel < Formula
   desc "Fast CLI for project board management"
   homepage "https://github.com/spoke-sh/keel"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/spoke-sh/keel/releases/download/v0.2.1/keel-aarch64-apple-darwin.tar.xz"
-      sha256 "fb36ce90f35e43f32f014c542a6a9ce6fdf8c40bf664c39f043e788b6516c9bc"
+      url "https://github.com/spoke-sh/keel/releases/download/v0.2.2/keel-aarch64-apple-darwin.tar.xz"
+      sha256 "428fa02e7ecf3fd546e8be19edaf1498acb99e2edb203bd2a9f7f389c1d6c113"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/spoke-sh/keel/releases/download/v0.2.1/keel-x86_64-apple-darwin.tar.xz"
-      sha256 "103619bfcab4736f29ce875315f0285654d5e865a44a30434c0e01dbfd2048ed"
+      url "https://github.com/spoke-sh/keel/releases/download/v0.2.2/keel-x86_64-apple-darwin.tar.xz"
+      sha256 "bb5f669c5cd603bc505dd1fb008d4fee1688c07bf78e324be70aff54cf285186"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/spoke-sh/keel/releases/download/v0.2.1/keel-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4fa26c111bcf538fda9c28d267e8ae38116e20804aae926798911803c892695b"
+      url "https://github.com/spoke-sh/keel/releases/download/v0.2.2/keel-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0f9ee27ffd4dcd3c0258d52398d4c898b5d0935a948dcdfa34be1846249e344c"
     end
   end
   license "MIT"
